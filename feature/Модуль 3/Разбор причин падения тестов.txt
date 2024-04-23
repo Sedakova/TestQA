@@ -1,0 +1,30 @@
+Сборка 2862. Отчет Allure по категориям
+Ссылка на сборку: https://dev.irpteam.com/tc/buildConfiguration/IRP_RunVA/37514?buildTab=overview&expandPull+Request+Details=true&showRootCauses=false
+
+1. Ошибка: Empty snippet address of the step
+Шаг: Then If dialog box is visible I click "OK"
+Причина падения: В диалоговом окне не найдена команда ОК / не появилось диалоговое окно с кнопкой ОК
+
+2. Ошибка: Error calling context method (BeginPutFileToServer) 
+Шаг: And I input "AdditionalFunctionality" text in "Description" field
+Причина падения: Системе не удалось найти выбранный пользователем файл (C:\BuildAgentThree\work\161527a3295c878a\DataProcessor\IRP_AdditionalFunctionality.cfe)
+
+3. Ошибка: Error calling context method (StartChoosing)
+Шаг: And I click Select button of "Package unit" field 
+Причина падения: в поле реквизита Package unit отсутствет кнопка выбора (Select button)
+
+4. Ошибка: Expected <The total amount of the "Cash transfer order" document(s) is already received on the basis of the "Bank receipt" document(s).> substring in user messages
+Шаг: Then I wait that in user messages the 'The total amount of the "Cash transfer order" document(s) is already received on the basis of the "Bank receipt" document(s).' substring will appear in 30 seconds
+Причина падения: Не появилось сообщение пользователю в течение 30 сек
+
+5. Ошибка: Form table named <PaymentList> is not found.
+Шаг: And I click choice button of "Partner" attribute in "PaymentList" table
+Причина падения: на форме не найдена таблица PaymentList
+
+6. Ошибка: One or more standard table lines are not found in the
+Шаг: And "PaymentList" table contains lines 
+Причина падения: в текущей строке таблицы значение колонки Amount равно 0, а ожидалось 500,00
+
+7. Ошибка: Unable to move to the required line in <List> table. 
+Шаг: And I go to line in "List" table
+Причина падения: в форме выбора Workstations нет начения Workstation 01 в колонке Description 
