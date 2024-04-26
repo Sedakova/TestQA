@@ -3,7 +3,7 @@
 	"Lang": "ru",
 	"DebugLog": false,
 	"ВерсияVA": "ver 1.2.040.20",
-	"КаталогФич": "C:\\VA Test\\feature\\Internal\\Закупки\\Создание документа Поступление товаров.feature",
+	"КаталогФич": "C:\\Users\\sedakova_i\\Documents\\GitHub\\TestQA\\Features_IRP\\Internal\\Добавление внешних файлов\\Проверка добавления картинок к Номенклатуре.feature",
 	"ДобавлятьКИмениСценарияУсловияВыгрузки": false,
 	"ЗаписыватьВидеоВыполненияТестов": false,
 	"КоличествоКадровВидеоВыполненияТестов": 5,
@@ -19,7 +19,7 @@
 	"ПоставщикПользовательскихНастроек": "FILE",
 	"АдресПользовательскихНастроек": "",
 	"ИспользоватьРедакторVanessaEditor": true,
-	"ТемаРедактораVanessaEditor": "1c",
+	"ТемаРедактораVanessaEditor": "vs",
 	"ИспользоватьДанныеТекущейФормыПриПодбореШагов": true,
 	"ПоказыватьСтрокиПодсценариевVanessaEditor": false,
 	"ПоказыватьЗначенияПеременныхВСтрокахРедактора": true,
@@ -84,7 +84,7 @@
 				"ДопПараметры": "/N\"Менеджер по продажам\" ",
 				"ТипКлиента": "Тонкий",
 				"ИмяКомпьютера": "localhost",
-				"PIDКлиентаТестирования": 12176
+				"PIDКлиентаТестирования": 0
 			}
 		]
 	},
@@ -145,7 +145,8 @@
 	"КаталогиБиблиотек": [
 		"C:\\VA Test\\vanessa-automation\\features\\Libraries",
 		"C:\\VA Test\\feature\\External",
-		"C:\\Users\\sedakova_i\\Documents\\GitHub\\TestQA\\feature\\Модуль 2"
+		"C:\\Users\\sedakova_i\\Documents\\GitHub\\TestQA\\feature\\Модуль 2",
+		"C:\\Users\\sedakova_i\\Documents\\GitHub\\TestQA\\Features_IRP"
 	],
 	"СписокТеговИсключение": [
 		"IgnoreOnCIMainBuild"
